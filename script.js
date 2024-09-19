@@ -29,7 +29,7 @@ if(e.target.tagName === "LI"){
 function saveData(){
     localStorage.setItem("data", listContainer.innerHTML);
 }
-function showTasl(){
+function showTask(){
     listContainer.innerHTML = localStorage.getItem("data");
 }
 
